@@ -22,6 +22,8 @@ Sprint | Estimated Velocity | Actual Velocity
 1      | TBD                | TBD
 2      | TBD                | TBD
 3      | TBD                | TBD
+4      | TBD                | TBD
+5      | TBD                | TBD
 
 ## Contact Information:
 * Joshua - <joshuaberkenmeier@u.boisestate.edu> 
