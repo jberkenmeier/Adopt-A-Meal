@@ -12,7 +12,7 @@ Last Name       | First Name      | GitHub User Name     | Scrum Role
 --------------- | --------------- | -------------------- | ---------------
 Berkenmeier     | Joshua          | jberkenmeier         | Developer
 Guevara         | Jaime           | jdguevara            | Developer 
-Perdew          | Thomas          |                      | Product Owner / Scrum Master(?)
+Perdew          | Thomas          | Thomasperdew         | Product Owner / Scrum Master(?)
 Ross            | Maddie          | Maddieross           | Developer
 
 ## Team Velocity:
