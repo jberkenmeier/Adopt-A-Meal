@@ -4,7 +4,7 @@
 
 ## Project Description:
 
-The Adopt-A-Meal project allows members of the community to volunteer to provide meals for Interfaith Sanctuary. This part of the project aims to help simplify the scheduling process for meals through an simple date selection process, after which users can fill a "Meal Adoption" form and submit it for admin approval. All approved forms should be displayed so users can be aware of what meals/events are planned.
+The Adopt-A-Meal project allows members of the community to volunteer to provide meals for Interfaith Sanctuary. This part of the project aims to help simplify the scheduling process for meals through a simple date selection process, after which users can fill a "Meal Adoption" form and submit it for admin approval. All approved forms should be displayed so users can be aware of what meals/events are planned.
 
 ## Team Members:
 
