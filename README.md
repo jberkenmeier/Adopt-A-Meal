@@ -55,9 +55,9 @@ Sprint | Estimated Velocity | Actual Velocity
 
         > git clone https://github.com/jberkenmeier/Adopt-A-Meal.git 
         
-    - If using WAMP you will want to clone this into the www directory provided when installing WAMP
-
     _link subject to change_
+    
+    - If using WAMP you will want to clone this into the www directory provided when installing WAMP
 
 4.	Now that you have the project ready to go there might be a few things you want to do. It is always good to keep dependencies up-to-date with:
 	
@@ -71,7 +71,7 @@ Sprint | Estimated Velocity | Actual Velocity
 
     This will bring up an http link. Click on this link and the project should open up in your browser. It is important to note that if you are using WAMP as well, this might hinder the php artisan serve from bringing up the project. Disable WAMP before running this command (click wamp icon -> stop all services).
     
-- If using WAMP to run project, if everything is set up correctly, you can just type in localhost in your browser and the project will come up. You can also click on the WAMP icon and click Localhost (first option). This will serve up the project at localhost as well.
+    - If using WAMP to run project, if everything is set up correctly, you can just type in localhost in your browser and the project will come up. You can also click on the WAMP icon and click Localhost (first option). This will serve up the project at localhost as well.
 
 ### Mac:
 
@@ -104,7 +104,7 @@ Sprint | Estimated Velocity | Actual Velocity
 
 5. If you don't already have PHP Storm, or IntelliJ IDEA, installed in your machine you can install them using the link(s) provided above. If you decide to use IntelliJ IDEA you'll want to download the _Ultimate_ version. Either way both will download a .dmg (Disk Image) file that will allow you to install either program easily by just following their instructions.
 
-- you can run local development through PHPStorm and IntelliJ IDEA using the following [guide](https://www.jetbrains.com/help/phpstorm/laravel.html).
+    - you can run local development through PHPStorm and IntelliJ IDEA using the following [guide](https://www.jetbrains.com/help/phpstorm/laravel.html).
 
 6.	Next you’ll want to clone the project repository. You can do this from command line using:
 
@@ -124,4 +124,4 @@ Sprint | Estimated Velocity | Actual Velocity
         
     This will bring up an http link. Click on this link and the project should open up in your browser. It is important to note that if you are using MAMP as well, this might hinder the php artisan serve from bringing up the project. Disable MAMP before running this command (click mamp icon -> stop servers).
 
-- If using MAMP to run the project, and if everything is set up correctly, you can just type in localhost:8888 in your browser and the project will come up. 
+    - If using MAMP to run the project, and if everything is set up correctly, you can just type in localhost:8888 in your browser and the project will come up. 
