@@ -56,7 +56,8 @@ Sprint | Estimated Velocity | Actual Velocity
         > git clone https://github.com/jberkenmeier/Adopt-A-Meal.git 
         
     - If using WAMP you will want to clone this into the www directory provided when installing WAMP
-_link subject to change_
+
+    _link subject to change_
 
 4.	Now that you have the project ready to go there might be a few things you want to do. It is always good to keep dependencies up-to-date with:
 	
@@ -99,7 +100,7 @@ _link subject to change_
 
         > PATH=$PATH:~/.composer/vendor/bin
    
-_This allows you to run the_ `laravel` _command in terminal._
+    _This allows you to run the_ `laravel` _command in terminal._
 
 5. If you don't already have PHP Storm, or IntelliJ IDEA, installed in your machine you can install them using the link(s) provided above. If you decide to use IntelliJ IDEA you'll want to download the _Ultimate_ version. Either way both will download a .dmg (Disk Image) file that will allow you to install either program easily by just following their instructions.
 
@@ -109,7 +110,7 @@ _This allows you to run the_ `laravel` _command in terminal._
 
         > git clone https://github.com/jberkenmeier/Adopt-A-Meal.git 
 
-_link subject to change._ 
+    _link subject to change._ 
 
 7. (Optional) You can also download MAMP for help with local development. Download the .pkg file for Mac and follow the installation instructions. If you decide to use MAMP you'll have to create a copy of repository and move it, or clone it, to `/Applications/MAMP/htdocs/`
 
