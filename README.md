@@ -33,9 +33,9 @@ Sprint | Estimated Velocity | Actual Velocity
 
 ## Project Installation:
 
-Windows:
+### Windows:
 
-Required:
+#### Required:
 
     PHP - [http://us1.php.net/downloads.php][PHP]
 
@@ -74,3 +74,47 @@ If using WAMP to run project, if everything is set up correctly, you can just ty
 [Git]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 [WAMP]: http://www.wampserver.com/en/
+
+### Mac:
+
+#### Required:
+* [Homebrew](https://brew.sh/)
+* [Composer 1.8.0](https://getcomposer.org/)
+* [Laravel Framework](https://laravel.com/docs/4.2)
+* [PHP Storm](https://www.jetbrains.com/phpstorm/) / [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+* [MAMP](https://www.mamp.info/en/) - Optional
+
+1. From the command line (through terminal, iTerm, or your shell of choice) install Homebrew pasting the following   command: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+2. Once Homebrew has been successfully installed, you can go ahead and install Composer using:
+   
+        > brew install composer
+
+3. After Composer has finished installing, Laravel can be installed with:
+
+        > composer global require "laravel/installer=~1.1"
+
+4. You'll also need to append `~/.composer/vendor/bin` to your PATH. This can be done with:
+
+        > PATH=$PATH:~/.composer/vendor/bin
+   
+_This allows you to run the_ `laravel` _command in terminal._
+
+5. If you don't already have PHP Storm, or IntelliJ IDEA, installed in your machine you can install them using the link(s) provided above. If you decide to use IntelliJ IDEA you'll want to download the _Ultimate_ version. Either way both will download a .dmg (Disk Image) file that will allow you to install either program easily by just following their instructions.
+
+- you can run local development through PHPStorm and IntelliJ IDEA using the following [guide](https://www.jetbrains.com/help/phpstorm/laravel.html).
+
+6.	Next you’ll want to clone the project repository. You can do this from command line using `git clone https://github.com/jberkenmeier/Adopt-A-Meal.git` (link subject to change). 
+
+7. (Optional) You can also download MAMP for help with local development. Download the .pkg file for Mac and follow the installation instructions. If you decide to use MAMP you'll have to create a copy of repository and move it, or clone it, to `/Applications/MAMP/htdocs/`
+
+8.	Now that you have to project ready to go there might be a few things you want to do. It is always good to run 
+	> composer update 
+to keep dependencies up to date.
+
+9.	Running Project: From command line within IDE you can simply run
+
+        > php artisan serve
+        
+This will bring up an http link. Click on this link and the project should open up in your browser. It is important to note that if you are using MAMP as well, this might hinder the php artisan serve from bringing up the project. Disable MAMP before running this command (click mamp icon -> stop servers).
+If using MAMP to run the project, if everything is set up correctly, you can just type in localhost:8888 in your browser and the project will come up. 
