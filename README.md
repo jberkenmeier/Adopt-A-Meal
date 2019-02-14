@@ -51,18 +51,26 @@ Sprint | Estimated Velocity | Actual Velocity
         > php -v (should give php version that you are running and other info)
         > composer –version (gives composer version)
         
-3.	Next you’ll want to clone the project repository. You can do this from command line by git clone https://github.com/jberkenmeier/Adopt-A-Meal.git (link subject to change). If using WAMP you will want to clone this into the www directory provided when installing WAMP.
+3.	Next you’ll want to clone the project repository. You can do this from command line using:
 
-4.	Now that you have to project ready to go there might be a few things you want to do. It is always good to run 
-	> composer update 
-to keep dependencies up to date. If using WAMP you might need to configure the apache httpd-vhosts.conf file and add the path to your project in the Document Root section.
+        > git clone https://github.com/jberkenmeier/Adopt-A-Meal.git 
+        
+    - If using WAMP you will want to clone this into the www directory provided when installing WAMP
+_link subject to change_
+
+4.	Now that you have the project ready to go there might be a few things you want to do. It is always good to keep dependencies up-to-date with:
+	
+        > composer update 
+    
+    If using WAMP you might need to configure the apache httpd-vhosts.conf file and add the path to your project in the Document Root section.
 
 5.	Running Project: From command line within IDE you can simply run
 
         > php artisan serve
 
-This will bring up an http link. Click on this link and the project should open up in your browser. It is important to note that if you are using WAMP as well, this might hinder the php artisan serve from bringing up the project. Disable WAMP before running this command (click wamp icon -> stop all services).
-If using WAMP to run project, if everything is set up correctly, you can just type in localhost in your browser and the project will come up. You can also click on the WAMP icon and click Localhost (first option). This will serve up the project at localhost as well.
+    This will bring up an http link. Click on this link and the project should open up in your browser. It is important to note that if you are using WAMP as well, this might hinder the php artisan serve from bringing up the project. Disable WAMP before running this command (click wamp icon -> stop all services).
+    
+- If using WAMP to run project, if everything is set up correctly, you can just type in localhost in your browser and the project will come up. You can also click on the WAMP icon and click Localhost (first option). This will serve up the project at localhost as well.
 
 ### Mac:
 
@@ -101,19 +109,18 @@ _This allows you to run the_ `laravel` _command in terminal._
 
         > git clone https://github.com/jberkenmeier/Adopt-A-Meal.git 
 
-- link subject to change 
+_link subject to change._ 
 
 7. (Optional) You can also download MAMP for help with local development. Download the .pkg file for Mac and follow the installation instructions. If you decide to use MAMP you'll have to create a copy of repository and move it, or clone it, to `/Applications/MAMP/htdocs/`
 
-8.	Now that you have to project ready to go there might be a few things you want to do. It is always good to run 
+8.	Now that you have the project ready to go there might be a few things you want to do. It is always good to keep dependencies up-to-date with: 
 
         > composer update 
-
-to keep dependencies up to date.
 
 9.	Running Project: From command line within IDE you can simply run
 
         > php artisan serve
         
-This will bring up an http link. Click on this link and the project should open up in your browser. It is important to note that if you are using MAMP as well, this might hinder the php artisan serve from bringing up the project. Disable MAMP before running this command (click mamp icon -> stop servers).
-If using MAMP to run the project, if everything is set up correctly, you can just type in localhost:8888 in your browser and the project will come up. 
+    This will bring up an http link. Click on this link and the project should open up in your browser. It is important to note that if you are using MAMP as well, this might hinder the php artisan serve from bringing up the project. Disable MAMP before running this command (click mamp icon -> stop servers).
+
+- If using MAMP to run the project, and if everything is set up correctly, you can just type in localhost:8888 in your browser and the project will come up. 
